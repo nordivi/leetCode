@@ -4,3 +4,14 @@
 #
 # Return true if there is a cycle in the linked list. Otherwise, return false.
 
+def hasCycle(head):
+    s, f = head, head
+
+    while f and f.next:
+        s = s.next
+        f = f.next.next
+
+        if s == f:
+            return True
+
+    return False
