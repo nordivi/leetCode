@@ -10,6 +10,7 @@ def min_eating_speed(piles, h):
     l, r = 1, max(piles)
     res = r
 
+
     while l <= r:
         k = (l + r) // 2
 
