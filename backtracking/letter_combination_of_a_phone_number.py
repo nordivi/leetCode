@@ -12,7 +12,7 @@ def letter_combination(digits):
         '6': ['m', 'n', 'o'],
         '7': ['p', 'q', 'r', 's'],
         '8': ['t', 'u', 'v'],
-        '9': ['w', 'x', 'y', 's']
+        '9': ['w', 'x', 'y', 'z']
     }
 
     res = []
